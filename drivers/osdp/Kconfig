@@ -53,7 +53,7 @@ config OSDP_LOG_LEVEL
 
 config OSDP_THREAD_STACK_SIZE
 	int "OSDP Thread stack size"
-	default 512
+	default 2048
 	help
 	  Thread stack size for osdp refresh thread
 

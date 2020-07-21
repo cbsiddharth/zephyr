@@ -210,7 +210,7 @@ endmenu # "OSDP PD Capabilities"
 
 menuconfig OSDP_SC_ENABLED
 	bool "Secure Channel Communication"
-	default false
+	default y
 	select CRYPTO
 	select CRYPTO_MBEDTLS_SHIM
 	select MBEDTLS
